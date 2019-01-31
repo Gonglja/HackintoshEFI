@@ -1,0 +1,124 @@
+5:097  0:205  Found UEFI Acpi 2.0 RSDP at 79F6B000
+5:097  0:000  Saving ACPI tables from RSDP 79F6B000 to EFI\CLOVER\ACPI\origin ...
+5:097  0:000   79F6B000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+5:113  0:015    (Xsdt: 79F6B0A8, Rsdt: 79F6B028)
+5:113  0:000    79F6B0A8: 'XSDT', 'A M I', Rev: 1, Len: 212 -> XSDT.aml
+5:127  0:014    79F6B028: 'RSDT', 'A M I', Rev: 1, Len: 124 -> RSDT.aml
+5:142  0:014    Tables in Xsdt: 22
+5:142  0:000    0. 79F89FD8: 'FACP', 'A M I', Rev: 6, Len: 276 -> FACP.aml
+5:157  0:014        (Dsdt: 79F6B210, Facs: 7A659F00, XDsdt: 79F6B210, XFacs: 0)
+5:157  0:000        79F6B210: 'DSDT', 'A M I', Rev: 2, Len: 126405 -> DSDT.aml
+5:174  0:016        7A659F00: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+5:198  0:024    1. 79F8A0F0: 'APIC', 'A M I', Rev: 3, Len: 160 -> APIC.aml
+5:213  0:014    2. 79F8A190: 'FPDT', 'A M I', Rev: 1, Len: 68 -> FPDT.aml
+5:228  0:014    3. 79F8A1D8: 'FIDT', 'A M I', Rev: 1, Len: 156 -> FIDT.aml
+5:243  0:014    4. 79F8A278: 'MCFG', 'A M I', Rev: 1, Len: 60 -> MCFG.aml
+5:267  0:024    5. 79F8A2B8: 'SSDT', 'A M I', Rev: 1, Len: 931 -> SSDT-0-A M I.aml
+5:282  0:014    6. 79F8A660: 'MSDM', 'A M I', Rev: 3, Len: 85 -> MSDM.aml
+5:297  0:014    7. 79F8A6B8: 'SSDT', 'A M I', Rev: 2, Len: 12877 -> SSDT-1-A M I.aml
+5:312  0:014    8. 79F8D908: 'SSDT', 'A M I', Rev: 2, Len: 10762 -> SSDT-2-A M I.aml
+5:327  0:014    9. 79F90318: 'HPET', 'A M I', Rev: 1, Len: 56 -> HPET.aml
+5:341  0:014    10. 79F90350: 'UEFI', 'A M I', Rev: 1, Len: 66 -> UEFI.aml
+5:356  0:014    11. 79F90398: 'SSDT', 'A M I', Rev: 2, Len: 6062 -> SSDT-3-A M I.aml (Found hidden SSDT 7 pcs)
+5:371  0:014        * 79F19318: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1617  53 53 44 54 51 06 00 00 02 70 50 6D 52 65 66 00 Internal length = 1617 -> SSDT-x3_0-Cpu0Ist.aml
+5:389  0:018        * 798DC018: 'SSDT', 'ApIst', Rev: 2, Len: 3348  53 53 44 54 14 0D 00 00 02 30 50 6D 52 65 66 00 Internal length = 3348 -> SSDT-x3_1-ApIst.aml
+5:404  0:014        * 798DD698: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 1023  53 53 44 54 FF 03 00 00 02 17 50 6D 52 65 66 00 Internal length = 1023 -> SSDT-x3_2-Cpu0Cst.aml
+5:418  0:014        * 798DB018: 'SSDT', 'ApCst', Rev: 2, Len: 778  53 53 44 54 0A 03 00 00 02 99 50 6D 52 65 66 00 Internal length = 778 -> SSDT-x3_3-ApCst.aml
+5:434  0:016        * 79F19D98: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 186  53 53 44 54 BA 00 00 00 02 83 50 6D 52 65 66 00 Internal length = 186 -> SSDT-x3_4-Cpu0Hwp.aml
+5:453  0:018        * 798DB418: 'SSDT', 'ApHwp', Rev: 2, Len: 791  53 53 44 54 17 03 00 00 02 86 50 6D 52 65 66 00 Internal length = 791 -> SSDT-x3_5-ApHwp.aml
+5:467  0:014        * 798DD018: 'SSDT', 'HwpLvt', Rev: 2, Len: 1576  53 53 44 54 28 06 00 00 02 8B 50 6D 52 65 66 00 Internal length = 1576 -> SSDT-x3_6-HwpLvt.aml
+5:482  0:014  
+5:482  0:000    12. 79F91B48: 'SSDT', 'A M I', Rev: 2, Len: 5727 -> SSDT-4-A M I.aml
+5:497  0:014    13. 79F931A8: 'DBGP', 'A M I', Rev: 1, Len: 52 -> DBGP.aml
+5:512  0:014    14. 79F931E0: 'DBG2', 'A M I', Rev: 0, Len: 84 -> DBG2.aml
+5:527  0:014    15. 79F93238: 'SSDT', 'A M I', Rev: 2, Len: 174 -> SSDT-5-A M I.aml
+5:541  0:014    16. 79F932E8: 'DMAR', 'A M I', Rev: 1, Len: 168 -> DMAR.aml
+5:556  0:014    17. 79F93390: 'BGRT', 'A M I', Rev: 1, Len: 56 -> BGRT.aml
+5:571  0:014    18. 79F933C8: 'TPM2', 'A M I', Rev: 3, Len: 52 -> TPM2.aml
+5:586  0:014    19. 79F93400: 'SSDT', 'A M I', Rev: 1, Len: 8116 -> SSDT-6-A M I.aml
+5:601  0:015    20. 79F953B8: 'ASF!', 'A M I', Rev: 32, Len: 160 -> ASF!.aml
+5:616  0:014    21. 79F95458: 'WSMT', 'A M I', Rev: 1, Len: 40 -> WSMT.aml
+5:630  0:014    Tables in Rsdt: 22
+5:630  0:000    0. 79F6B188: 'FACP', 'A M I', Rev: 2, Len: 132 -> RSDT-FACP.aml
+5:645  0:014        (Dsdt: 79F6B210, Facs: 7A659EC0)
+5:645  0:000        79F6B210: 'DSDT', 'A M I', Rev: 2, Len: 126405
+5:647  0:001        7A659EC0: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+5:661  0:014    1. 79F8A0F0: 'APIC', 'A M I', Rev: 3, Len: 160
+5:661  0:000    2. 79F8A190: 'FPDT', 'A M I', Rev: 1, Len: 68
+5:661  0:000    3. 79F8A1D8: 'FIDT', 'A M I', Rev: 1, Len: 156
+5:661  0:000    4. 79F8A278: 'MCFG', 'A M I', Rev: 1, Len: 60
+5:661  0:000    5. 79F8A2B8: 'SSDT', 'A M I', Rev: 1, Len: 931
+5:661  0:000    6. 79F8A660: 'MSDM', 'A M I', Rev: 3, Len: 85
+5:661  0:000    7. 79F8A6B8: 'SSDT', 'A M I', Rev: 2, Len: 12877
+5:661  0:000    8. 79F8D908: 'SSDT', 'A M I', Rev: 2, Len: 10762
+5:661  0:000    9. 79F90318: 'HPET', 'A M I', Rev: 1, Len: 56
+5:661  0:000    10. 79F90350: 'UEFI', 'A M I', Rev: 1, Len: 66
+5:661  0:000    11. 79F90398: 'SSDT', 'A M I', Rev: 2, Len: 6062
+5:661  0:000    12. 79F91B48: 'SSDT', 'A M I', Rev: 2, Len: 5727
+5:661  0:000    13. 79F931A8: 'DBGP', 'A M I', Rev: 1, Len: 52
+5:661  0:000    14. 79F931E0: 'DBG2', 'A M I', Rev: 0, Len: 84
+5:661  0:000    15. 79F93238: 'SSDT', 'A M I', Rev: 2, Len: 174
+5:661  0:000    16. 79F932E8: 'DMAR', 'A M I', Rev: 1, Len: 168
+5:661  0:000    17. 79F93390: 'BGRT', 'A M I', Rev: 1, Len: 56
+5:661  0:000    18. 79F933C8: 'TPM2', 'A M I', Rev: 3, Len: 52
+5:661  0:000    19. 79F93400: 'SSDT', 'A M I', Rev: 1, Len: 8116
+5:661  0:000    20. 79F953B8: 'ASF!', 'A M I', Rev: 32, Len: 160
+5:661  0:000    21. 79F95458: 'WSMT', 'A M I', Rev: 1, Len: 40
+5:661  0:000  Found UEFI Acpi 1.0 RSDP at 79F6B000
+5:661  0:000  Printing ACPI tables from RSDP 79F6B000 ...
+5:661  0:000   79F6B000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+5:661  0:000    (Xsdt: 79F6B0A8, Rsdt: 79F6B028)
+5:661  0:000    79F6B0A8: 'XSDT', 'A M I', Rev: 1, Len: 212
+5:661  0:000    79F6B028: 'RSDT', 'A M I', Rev: 1, Len: 124
+5:661  0:000    Tables in Xsdt: 22
+5:661  0:000    0. 79F89FD8: 'FACP', 'A M I', Rev: 6, Len: 276
+5:661  0:000        (Dsdt: 79F6B210, Facs: 7A659F00, XDsdt: 79F6B210, XFacs: 0)
+5:661  0:000        79F6B210: 'DSDT', 'A M I', Rev: 2, Len: 126405
+5:663  0:001        7A659F00: 'FACS', Ver: 2, Len: 64
+5:663  0:000    1. 79F8A0F0: 'APIC', 'A M I', Rev: 3, Len: 160
+5:663  0:000    2. 79F8A190: 'FPDT', 'A M I', Rev: 1, Len: 68
+5:663  0:000    3. 79F8A1D8: 'FIDT', 'A M I', Rev: 1, Len: 156
+5:663  0:000    4. 79F8A278: 'MCFG', 'A M I', Rev: 1, Len: 60
+5:663  0:000    5. 79F8A2B8: 'SSDT', 'A M I', Rev: 1, Len: 931
+5:663  0:000    6. 79F8A660: 'MSDM', 'A M I', Rev: 3, Len: 85
+5:663  0:000    7. 79F8A6B8: 'SSDT', 'A M I', Rev: 2, Len: 12877
+5:663  0:000    8. 79F8D908: 'SSDT', 'A M I', Rev: 2, Len: 10762
+5:663  0:000    9. 79F90318: 'HPET', 'A M I', Rev: 1, Len: 56
+5:663  0:000    10. 79F90350: 'UEFI', 'A M I', Rev: 1, Len: 66
+5:663  0:000    11. 79F90398: 'SSDT', 'A M I', Rev: 2, Len: 6062
+5:663  0:000    12. 79F91B48: 'SSDT', 'A M I', Rev: 2, Len: 5727
+5:663  0:000    13. 79F931A8: 'DBGP', 'A M I', Rev: 1, Len: 52
+5:663  0:000    14. 79F931E0: 'DBG2', 'A M I', Rev: 0, Len: 84
+5:663  0:000    15. 79F93238: 'SSDT', 'A M I', Rev: 2, Len: 174
+5:663  0:000    16. 79F932E8: 'DMAR', 'A M I', Rev: 1, Len: 168
+5:663  0:000    17. 79F93390: 'BGRT', 'A M I', Rev: 1, Len: 56
+5:663  0:000    18. 79F933C8: 'TPM2', 'A M I', Rev: 3, Len: 52
+5:663  0:000    19. 79F93400: 'SSDT', 'A M I', Rev: 1, Len: 8116
+5:663  0:000    20. 79F953B8: 'ASF!', 'A M I', Rev: 32, Len: 160
+5:663  0:000    21. 79F95458: 'WSMT', 'A M I', Rev: 1, Len: 40
+5:663  0:000    Tables in Rsdt: 22
+5:663  0:000    0. 79F6B188: 'FACP', 'A M I', Rev: 2, Len: 132
+5:663  0:000        (Dsdt: 79F6B210, Facs: 7A659EC0)
+5:663  0:000        79F6B210: 'DSDT', 'A M I', Rev: 2, Len: 126405
+5:664  0:001        7A659EC0: 'FACS', Ver: 0, Len: 64
+5:664  0:000    1. 79F8A0F0: 'APIC', 'A M I', Rev: 3, Len: 160
+5:664  0:000    2. 79F8A190: 'FPDT', 'A M I', Rev: 1, Len: 68
+5:664  0:000    3. 79F8A1D8: 'FIDT', 'A M I', Rev: 1, Len: 156
+5:664  0:000    4. 79F8A278: 'MCFG', 'A M I', Rev: 1, Len: 60
+5:664  0:000    5. 79F8A2B8: 'SSDT', 'A M I', Rev: 1, Len: 931
+5:664  0:000    6. 79F8A660: 'MSDM', 'A M I', Rev: 3, Len: 85
+5:664  0:000    7. 79F8A6B8: 'SSDT', 'A M I', Rev: 2, Len: 12877
+5:664  0:000    8. 79F8D908: 'SSDT', 'A M I', Rev: 2, Len: 10762
+5:664  0:000    9. 79F90318: 'HPET', 'A M I', Rev: 1, Len: 56
+5:664  0:000    10. 79F90350: 'UEFI', 'A M I', Rev: 1, Len: 66
+5:664  0:000    11. 79F90398: 'SSDT', 'A M I', Rev: 2, Len: 6062
+5:664  0:000    12. 79F91B48: 'SSDT', 'A M I', Rev: 2, Len: 5727
+5:664  0:000    13. 79F931A8: 'DBGP', 'A M I', Rev: 1, Len: 52
+5:664  0:000    14. 79F931E0: 'DBG2', 'A M I', Rev: 0, Len: 84
+5:664  0:000    15. 79F93238: 'SSDT', 'A M I', Rev: 2, Len: 174
+5:664  0:000    16. 79F932E8: 'DMAR', 'A M I', Rev: 1, Len: 168
+5:664  0:000    17. 79F93390: 'BGRT', 'A M I', Rev: 1, Len: 56
+5:664  0:000    18. 79F933C8: 'TPM2', 'A M I', Rev: 3, Len: 52
+5:664  0:000    19. 79F93400: 'SSDT', 'A M I', Rev: 1, Len: 8116
+5:664  0:000    20. 79F953B8: 'ASF!', 'A M I', Rev: 32, Len: 160
+5:664  0:000    21. 79F95458: 'WSMT', 'A M I', Rev: 1, Len: 40
