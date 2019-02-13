@@ -1,7 +1,17 @@
 # HackintoshEFI
 ## 炫龙KP2-黑苹果-折腾记录
 
+### 配置如下
 
+![ludashi](C:\Users\Administrator\Desktop\ludashi.jpg)
+
+![peizhi](C:\Users\Administrator\Desktop\peizhi1.png)
+
+![peizhi2](C:\Users\Administrator\Desktop\peizhi2.png)
+
+![peizhi3](C:\Users\Administrator\Desktop\peizhi3.png)
+
+### 基本完成情况
 
 2018.10.28 基本完美
 
